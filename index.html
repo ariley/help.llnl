@@ -119,6 +119,18 @@
                                                             required></textarea>
                                                     </div>
 
+                                                    <div>
+
+                                                        <label class="block mb-2 text-sm font-medium text-gray-900" for="file_input">Upload file</label>
+
+                                                        <form id="uploadForm" >
+                                                            <input type="file" id="fileInput" name="file" class="block w-full text-sm text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 focus:outline-none">
+                                                            <button type="button" onclick="uploadFile()">Upload File</button>
+                                                        </form>
+
+                                                        <script src="uploadScript.js"></script>
+                                                    </div>
+
                                                     <div class="mb-6">
                                                         <button type="submit" class="w-full px-3 py-4 text-white bg-gray-400 rounded-md focus:bg-gray-600 hover:bg-blue-600 focus:outline-none">Send Message</button>
                                                     </div>
@@ -200,28 +212,7 @@ await files.readPipe(['README.md', 'package.json'], writeStream);
                                 </script>
 
 
-                                <div class="flex flex-wrap mt-2 justify-center ">
-                                    <div class="m-3 ">
-                                        <a href="https://www.facebook.com/agnesriley " target=_blank "  title="Agnes Riley On Facebook ">
-                                            <span class="mx-auto text-gray-300 hover:text-blue-700 "><i class="fab fa-facebook-square fa-3x "></i></span>
-                                        </a>
-                                    </div>
-                                    <div class="m-3 ">
-                                        <a href="https://twitter.com/agir " target=_blank " title="Agnes Riley On Twitter ">
-                                            <span class="mx-auto text-gray-300 hover:text-blue-400 "><i class="fab fa-twitter-square fa-3x "></i></span>
-                                        </a>
-                                    </div>
-                                    <div class="m-3 ">
-                                        <a href="https://pinterest.com/agiriley/ " target=_blank " title="Agnes Riley On Pinterest ">
-                                            <span class="mx-auto text-gray-300 hover:text-red-500 "><i class="fab fa-pinterest-square fa-3x "></i></span>
-                                        </a>
-                                    </div>
-                                    <div class="m-3 ">
-                                        <a href="https://www.linkedin.com/in/agnesriley/ " target=_blank " title="Agnes Riley On LinkedIn ">
-                                            <span class="mx-auto text-gray-300 hover:text-blue-600 "><i class="fab fa-linkedin fa-3x "></i></span>
-                                        </a>
-                                    </div>
-                                </div>
+
 
                             </div>
                         </div>
