@@ -1,4 +1,4 @@
-<html>
+<!DOCTYPE html>
   <head>
     <link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg" />
     <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
@@ -7,7 +7,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/trianglify@^4/dist/trianglify.bundle.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.2.1/trianglify.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.2.1/trianglify.min.js"></script> -->
     <link href="/public/style.css" rel="stylesheet" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -26,7 +26,7 @@
       content="width=device-width,initial-scale=1,user-scalable=no"
     />
     <meta name="description" content="" />
-    <meta property="og:site_name" content="LLNL | Request Help" />
+    <meta property="og:site_name" content="LLNL | Report an issue" />
     <meta property="og:title" content="" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="" />
@@ -46,17 +46,18 @@
                   <div
                     class="p-5 mr-2 bg-gray-100 dark:bg-gray-100 sm:rounded-lg rounded-lg shadow-lg"
                   >
+
+                    <h1
+                      class="text-4xl sm:text-5xl text-gray-600 dark:text-gray-400 font-bold text-center"
+                    >
+                      Report An Issue
+                    </h1>
                     <button
                       type="button"
                       class="float-right text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
                     >
                       <a href="#form">Go to Form</a>
                     </button>
-                    <h1
-                      class="text-4xl sm:text-5xl text-gray-600 dark:text-gray-400 font-bold"
-                    >
-                      Report Issues
-                    </h1>
                     <div
                       class="flex items-center mt-8 text-gray-600 dark:text-gray-400"
                     >
@@ -358,4 +359,4 @@ await files.readPipe(['README.md', 'package.json'], writeStream);
       </div>
     </div>
   </body>
-</html>
+</!DOCTYPE>
